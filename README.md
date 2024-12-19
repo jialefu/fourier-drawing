@@ -20,11 +20,21 @@
 
 ## 安装和使用说明
 
-运行此项目，您需要在Python环境中安装manim和ffmpeg模块。您可以通过下面的命令进行安装：
+1. 安装FFmpeg，参考[这个链接](https://blog.csdn.net/csdn_yudong/article/details/129182648)，我安装的是7.0.2；
 
-```bash
-pip install manim ffmpeg
-```
+2. 创建环境
+
+    ```bash
+    conda create -n manim python=3.10 -y
+    conda activate manim
+    pip install manim==0.18.1
+    ```
+
+3. 运行
+
+    ```bash
+    python -m manim fourier_text.py DrawFourierSoomth -p
+    ```
 
 安装完毕后，即可直接运行项目。
 
