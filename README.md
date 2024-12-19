@@ -25,15 +25,15 @@
 2. 创建环境
 
     ```bash
-    conda create -n manim python=3.10 -y
+    conda create -n manim python=3.8 -y
     conda activate manim
-    pip install manim==0.18.1
+    pip install manim==0.12.0
     ```
 
 3. 运行
 
     ```bash
-    python -m manim fourier_text.py DrawFourierSoomth -p
+    manim fourier_text.py DrawFourierSoomth
     ```
 
 安装完毕后，即可直接运行项目。
