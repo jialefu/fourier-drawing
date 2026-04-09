@@ -177,9 +177,3 @@ python -m unittest discover tests
 - Disconnected contours are currently flattened into one sequential drawing path. That works well for many shapes, but complex multi-part glyphs may include connector strokes between contours.
 - Render cost grows with both `order` and `samples`. Start with `-ql`, then move to higher quality once the motion feels right.
 - Font support depends on your local machine. If a glyph renders incorrectly, explicitly choose a font that contains it.
-
-## Why Star It?
-
-Because tiny math tools with nice docs deserve a cozy little fan club.
-
-More seriously: if this repo saves you time, gives you a clean Fourier drawing starting point, or inspires a remix, a star helps other people find it too.
