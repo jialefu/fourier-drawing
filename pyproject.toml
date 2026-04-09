@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fourier-drawing"
+version = "0.1.0"
+description = "Animate text and outline shapes with Fourier epicycles in Manim."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "manim==0.20.1",
+    "numpy==2.2.4",
+]
+keywords = ["animation", "epicycles", "fourier", "manim", "visualization"]
+
+[tool.setuptools.packages.find]
+include = ["fourier_drawing*"]
